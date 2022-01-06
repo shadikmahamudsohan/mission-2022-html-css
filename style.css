@@ -10,14 +10,22 @@ h1 {
     font-family: 'Yeseva One', cursive;
     color: #333;
 }
+h2 {
+    font-size: 40px;
+    color: #C26078;
+}
 p {
     color: #3E3E3E;
+}
+.flexible-content {
+    display: flex;
 }
 /* Global slector end */
 
 /* Top section start */
 .title {
     border-left: 4px solid #4500C8;
+    border-radius: 3px;
     padding-left: 20px;
 }
 .top-section p {
@@ -25,9 +33,6 @@ p {
 }
 .purple-color {
     color: #702AF4;
-}
-.top-section {
-    display: flex;
 }
 .half-width {
     width: 50%;
@@ -49,3 +54,36 @@ p {
 }
 
 /* Top section start end*/
+
+/* Card area */
+.mission-section-title {
+    font-weight: bold;
+    text-align: center;
+}
+.mission-section {
+    padding: 70px;
+}
+
+.card {
+    width: 50%;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 0;
+}
+.card img {
+    width: 200px;
+}
+.Mission {
+    background-color: #5500ff25;
+
+}
+.Vision {
+    background-color: #cc00ff28;
+}
+.Goals {
+    background-color: #ff070731;
+}
+.card-content {
+    padding: 0 30px 20px 40px;
+}
+/* Card area end */
