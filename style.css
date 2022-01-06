@@ -7,11 +7,10 @@ body {
 .continer {
     padding: 50px 150px 0 150px;
 }
-
 h1 {
-    font-size: 55px;
-    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
     color: #333;
+    font-weight: 900;
 }
 h2 {
     font-size: 40px;
@@ -23,16 +22,17 @@ p {
     display: flex;
 }
 .button {
-    padding: 15px 40px;
+    padding: 15px 45px;
     color: white;
     background-color: #4500C8;
-    border-radius: 10px;
+    border-radius: 5px;
     text-decoration: none;
 }
 /* Global slector end */
 
 /* Top section start */
 .title {
+    font-family: 'Yeseva One', cursive;
     border-left: 4px solid #4500C8;
     border-radius: 2px;
     padding-left: 20px;
@@ -47,8 +47,8 @@ p {
     width: 50%;
 }
 .half-width img {
-    width: 80%;
-    margin-left: 100px;
+    width: 75%;
+    margin-left: 120px;
 }
 .scroll-down-txt {
     color: #434343;
@@ -91,6 +91,9 @@ p {
 .Develop-without-limits {
     margin-top: 150px;
 }
+.Develop-without-limits h1 {
+    margin: 0px;
+}
 .left-side {
     width: 50%;
 }
@@ -102,16 +105,38 @@ p {
 }
 /* Develop-without-limits end */
 
-
 /* know-our-global-community */
 .know-our-global-community {
     margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+}
+.know-our-global-community h1 {
+    margin: 0px;
 }
 .know-our-global-community p {
     margin-bottom: 50px;
 }
 /* know-our-global-community end */
+
+/* planting-tree section */
+.planting-tree {
+    margin-bottom: 250px;
+}
+.planting-tree p {
+    margin-bottom: 50px;
+}
+.planting-tree h1 {
+    margin: 0px;
+}
+.planting-tree h2{
+    text-align: center;
+    color: #C26078;
+    margin-bottom: 100px;
+}
+.planting-tree .left-side img {
+    border-radius: 30px;
+}
+/* planting-tree section end */
 
 /* footer */
 footer {
