@@ -1,8 +1,11 @@
 /* Global slector */
 body {
     margin: 0;
-    padding: 50px;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+.continer {
+    padding: 50px 150px 0 150px;
 }
 
 h1 {
@@ -12,7 +15,6 @@ h1 {
 }
 h2 {
     font-size: 40px;
-    color: #C26078;
 }
 p {
     color: #3E3E3E;
@@ -20,33 +22,33 @@ p {
 .flexible-content {
     display: flex;
 }
-/* Global slector end */
-
-/* Top section start */
-.title {
-    border-left: 4px solid #4500C8;
-    border-radius: 3px;
-    padding-left: 20px;
-}
-.top-section p {
-    margin-bottom: 50px;
-}
-.purple-color {
-    color: #702AF4;
-}
-.half-width {
-    width: 50%;
-    padding-left: 100px;
-}
-.half-width img {
-    width: 80%;
-}
 .button {
     padding: 15px 40px;
     color: white;
     background-color: #4500C8;
     border-radius: 10px;
     text-decoration: none;
+}
+/* Global slector end */
+
+/* Top section start */
+.title {
+    border-left: 4px solid #4500C8;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+.top-section p {
+    margin-bottom: 70px;
+}
+.purple-color {
+    color: #702AF4;
+}
+.half-width {
+    width: 50%;
+}
+.half-width img {
+    width: 80%;
+    margin-left: 100px;
 }
 .scroll-down-txt {
     color: #434343;
@@ -59,11 +61,8 @@ p {
 .mission-section-title {
     font-weight: bold;
     text-align: center;
+    color: #C26078;
 }
-.mission-section {
-    padding: 70px;
-}
-
 .card {
     width: 50%;
     border-radius: 15px;
@@ -87,3 +86,47 @@ p {
     padding: 0 30px 20px 40px;
 }
 /* Card area end */
+
+/* Develop-without-limits */
+.Develop-without-limits {
+    margin-top: 150px;
+}
+.left-side {
+    width: 50%;
+}
+.left-side img{
+    width: 80%;
+}
+.Develop-without-limits p {
+    margin-bottom: 50px;
+}
+/* Develop-without-limits end */
+
+
+/* know-our-global-community */
+.know-our-global-community {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.know-our-global-community p {
+    margin-bottom: 50px;
+}
+/* know-our-global-community end */
+
+/* footer */
+footer {
+    background-color: #0B0D17;
+    margin: 0;
+    height: 100px;
+    padding: 80px;
+    text-align: center;
+}
+footer h2 {
+    margin: 0;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+footer p {
+    color: #D9DBE1;
+}
+/* footer end */
