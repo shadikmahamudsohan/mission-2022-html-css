@@ -123,7 +123,7 @@ p {
 
 /* planting-tree section */
 .planting-tree {
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 .planting-tree p {
     margin-bottom: 50px;
@@ -147,6 +147,38 @@ p {
     font-weight: bold;
 }
 /* planting-tree section end */
+
+/* contact section */
+.contact {
+    margin-bottom: 200px;
+}
+.contact-link{
+    color: blue;
+    font-weight: bold;
+}
+.contact h1{
+    margin: 0px;
+}
+.contact img{
+    border-radius: 30px;
+}
+.contact input {
+    display: block;
+    padding: 10px 5px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.contact .submit-btn {
+    padding: 15px 40px;
+    width: 30%;
+    background-color: #4500C8;
+    color: white;
+    border: none;
+}
+
+/* contact section end */
 
 /* footer */
 footer {
