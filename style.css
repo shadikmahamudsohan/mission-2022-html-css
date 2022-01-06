@@ -72,6 +72,9 @@ p {
 .card img {
     width: 200px;
 }
+.card p {
+    font-size: 14px;
+}
 .Mission {
     background-color: #5500ff25;
 
@@ -128,6 +131,9 @@ p {
 .planting-tree h1 {
     margin: 0px;
 }
+.planting-tree h1 {
+    margin: 0px;
+}
 .planting-tree h2{
     text-align: center;
     color: #C26078;
@@ -135,6 +141,10 @@ p {
 }
 .planting-tree .left-side img {
     border-radius: 30px;
+}
+.read-more-link {
+    color: blue;
+    font-weight: bold;
 }
 /* planting-tree section end */
 
